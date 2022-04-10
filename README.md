@@ -19,13 +19,15 @@
 <br>
 <br>**What functionalities and how to use each versions?**
 - With UI: 
+  - Execute **UI.py**.
   - It provides a user interface. 
+  - It is accumulative. Thus, even though you quit and re-run the program, the data would **not** be lost.
+  - It would automatically create a housekeeping log for you as an file *HousekeepingLog.xlsx*. 
   - By clicking corresponding categories, you can enter the name of the product and its price. Make sure to press "Enter" button.
   - By clicking "statistic," you can view the total amount of money spending on each categories and the total amount of money spending on entire categories.
-  - It would automatically create a housekeeping log for you as an file *HousekeepingLog.xlsx*. 
-  - Press "QUIT" to quit the program.
-  - It is accumulative. Thus, even though you quit and re-run the program, the data would **not** be lost.
+  - By clicking "QUIT," you can quit the program.
       
 - Without UI:
-  - Same functionalities described above, except the UI and statistic.
-  - Follow the directions on the terminal/console.
+  - Execute **Main.py**.
+  - Same functionalities described above are provided, except the UI and statistic.
+  - Directions are appeared in the terminal/console.
